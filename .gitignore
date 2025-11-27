@@ -1,0 +1,40 @@
+# Object files
+*.o
+
+# Examples directory - ignore everything except .bf files
+examples/*
+!examples/*.bf
+
+# Build artifacts
+*.exe
+*.out
+a.out
+
+# Compiled binaries
+brainfuck
+brainfuck_debug
+simple
+test_input
+hello
+bf2cpp
+
+# Generated C++ files from translation (in top level)
+*.cpp
+!main.cpp
+!brainfuck.cpp
+!bf2cpp.cpp
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
